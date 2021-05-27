@@ -33,9 +33,7 @@ namespace CurryLounge.Checkout
                     order.Surname = decoder["LASTNAME"].ToString();
                     order.Address = decoder["SHIPTOSTREET"].ToString();
                     order.City = decoder["SHIPTOCITY"].ToString();
-                    //order.County = decoder["SHIPTOSTATE"].ToString();
                     order.Postcode = decoder["SHIPTOZIP"].ToString();
-                    //order.Country = decoder["SHIPTOCOUNTRYCODE"].ToString();
                     order.Email = decoder["EMAIL"].ToString();
                     order.Total = Convert.ToDecimal(decoder["AMT"].ToString());
 

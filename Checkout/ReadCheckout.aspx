@@ -25,7 +25,6 @@
                     <asp:Label ID="Address" runat="server" Text='<%#: Eval("Address") %>'></asp:Label>
                     <br />
                     <asp:Label ID="City" runat="server" Text='<%#: Eval("City") %>'></asp:Label>
-                    <%--<asp:Label ID="County" runat="server" Text='<%#: Eval("County") %>'></asp:Label>--%>
                     <asp:Label ID="Postcode" runat="server" Text='<%#: Eval("Postcode") %>'></asp:Label>
                 </ItemTemplate>
             <ItemStyle HorizontalAlign="Left" />

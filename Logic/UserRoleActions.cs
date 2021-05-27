@@ -28,14 +28,16 @@ namespace CurryLounge.Logic
             var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(c));
             var user = new ApplicationUser
             {
-                UserName = "hasAdmin@currylounge.com",
-                Email = "hasAdmin@currylounge.com"
+                // Create Username and Email for Admin account.
+                UserName = "",
+                Email = ""
             };
-            userIdResult = userManager.Create(user, "PA$$W0RD");
+            userIdResult = userManager.Create(user, ""); // Add password as second value
 
-            if (!userManager.IsInRole(userManager.FindByEmail("hasAdmin@currylounge.com").Id, "hasAdmin"))
+            // Create and add Admin email in FindByEmail("")
+            if (!userManager.IsInRole(userManager.FindByEmail("").Id, "hasAdmin"))
             {
-                userIdResult = userManager.AddToRole(userManager.FindByEmail("hasAdmin@currylounge.com").Id, "hasAdmin");
+                userIdResult = userManager.AddToRole(userManager.FindByEmail("").Id, "hasAdmin");
             }
         }
     }

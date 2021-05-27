@@ -33,10 +33,6 @@ namespace CurryLounge.Models
         [StringLength(50)]
         public string City { get; set; }
 
-        //[Required(ErrorMessage = "Field is required: County")]
-        //[StringLength(50)]
-        //public string County { get; set; }
-
         [Required(ErrorMessage = "Field is required: Postcode")]
         [StringLength(10)]
         public string Postcode { get; set; }

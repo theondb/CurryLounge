@@ -23,12 +23,9 @@ public class NVPAPICaller
     private const string PWD = "PWD";
     private const string ACCT = "ACCT";
 
-    //Replace <Your API Username> with your API Username
-    //Replace <Your API Password> with your API Password
-    //Replace <Your Signature> with your Signature
-    public string APIUsername = "currylounge-merchant_api1.email.com";
-    private string APIPassword = "48X4VUXL7FN4N7KW";
-    private string APISignature = "AurpScYpYrWdPBaaGGawNC5ZhYDOAvqG7w3oZoCUynEuXkemvSLTREfS";
+    public string APIUsername = "";     //Replace <Your API Username> with your API Username
+    private string APIPassword = "";    //Replace <Your API Password> with your API Password
+    private string APISignature = "";   //Replace <Your Signature> with your Signature
     private string Subject = "";
     private string BNCode = "PP-ECWizard";
 

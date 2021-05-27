@@ -10,6 +10,6 @@
     </address>
 
     <address>
-        <strong>Email:</strong>   <a href="currylounge-merchant@email.com">currylounge-merchant@email.com</a><br />
+        <strong>Email:</strong>   <a href="merchant email from PayPal API">merchant email from PayPal API</a><br />
     </address>
 </asp:Content>

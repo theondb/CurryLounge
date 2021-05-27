@@ -59,10 +59,11 @@ namespace CurryLounge
             //   appId: "",
             //   appSecret: "");
 
+            // Can add Google Auth by getting the values from Google Dev Console account
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "338795060517-acg8s4bj7udj4lcfgp4c60pr13c1dv6k.apps.googleusercontent.com",
-                ClientSecret = "z5e8iNHfBqyEpm7insGuUFFJ"
+                ClientId = "",
+                ClientSecret = ""
             });
         }
     }
